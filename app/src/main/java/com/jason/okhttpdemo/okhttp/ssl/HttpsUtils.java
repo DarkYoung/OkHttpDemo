@@ -1,4 +1,4 @@
-package com.example.jason.okhttpdemo.okhttp.ssl;
+package com.jason.okhttpdemo.okhttp.ssl;
 
 import java.io.IOException;
 import java.io.InputStream;

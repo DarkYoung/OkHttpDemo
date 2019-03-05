@@ -1,4 +1,4 @@
-package com.example.jason.okhttpdemo;
+package com.jason.okhttpdemo;
 
 import org.junit.Test;
 

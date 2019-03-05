@@ -1,4 +1,4 @@
-package com.example.jason.okhttpdemo;
+package com.jason.okhttpdemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

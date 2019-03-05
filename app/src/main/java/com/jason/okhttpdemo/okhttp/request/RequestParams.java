@@ -1,4 +1,4 @@
-package com.example.jason.okhttpdemo.okhttp.request;
+package com.jason.okhttpdemo.okhttp.request;
 
 import java.util.HashMap;
 import java.util.Map;

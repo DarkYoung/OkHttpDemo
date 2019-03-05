@@ -1,11 +1,11 @@
-package com.example.jason.okhttpdemo.okhttp.response;
+package com.jason.okhttpdemo.okhttp.response;
 
 import android.os.Handler;
 import android.os.Looper;
 
-import com.example.jason.okhttpdemo.okhttp.exception.OkHttpException;
-import com.example.jason.okhttpdemo.okhttp.listener.DisposeDataHandle;
-import com.example.jason.okhttpdemo.okhttp.listener.DisposeDataListener;
+import com.jason.okhttpdemo.okhttp.exception.OkHttpException;
+import com.jason.okhttpdemo.okhttp.listener.DisposeDataHandle;
+import com.jason.okhttpdemo.okhttp.listener.DisposeDataListener;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -16,7 +16,7 @@ import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
 
-import static com.example.jason.okhttpdemo.okhttp.CommonConsts.*;
+import static com.jason.okhttpdemo.okhttp.CommonConsts.*;
 
 /**
  * Created by jason on 19-3-1.

@@ -1,4 +1,4 @@
-package com.example.jason.okhttpdemo.okhttp;
+package com.jason.okhttpdemo.okhttp;
 
 /**
  * Created by jason on 19-3-1.

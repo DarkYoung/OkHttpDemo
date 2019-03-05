@@ -1,8 +1,8 @@
-package com.example.jason.okhttpdemo.okhttp;
+package com.jason.okhttpdemo.okhttp;
 
-import com.example.jason.okhttpdemo.okhttp.listener.DisposeDataHandle;
-import com.example.jason.okhttpdemo.okhttp.response.CommonJsonCallback;
-import com.example.jason.okhttpdemo.okhttp.ssl.HttpsUtils;
+import com.jason.okhttpdemo.okhttp.listener.DisposeDataHandle;
+import com.jason.okhttpdemo.okhttp.response.CommonJsonCallback;
+import com.jason.okhttpdemo.okhttp.ssl.HttpsUtils;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +13,7 @@ import okhttp3.Call;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 
-import static com.example.jason.okhttpdemo.okhttp.CommonConsts.TIME_OUT;
+import static com.jason.okhttpdemo.okhttp.CommonConsts.TIME_OUT;
 
 /**
  * Created by jason on 19-3-1.
@@ -27,11 +27,8 @@ public class CommonOkHttpClient {
     static {
         OkHttpClient.Builder okHttpBuilder = new OkHttpClient.Builder();
         //对https的认证
-        okHttpBuilder.hostnameVerifier(new HostnameVerifier() {
-            @Override
-            public boolean verify(String s, SSLSession sslSession) {
-                return true;//信任所有证书
-            }
+        okHttpBuilder.hostnameVerifier((s, sslSession) -> {
+            return true;//信任所有证书
         });
         okHttpBuilder.connectTimeout(TIME_OUT, TimeUnit.SECONDS);
         okHttpBuilder.readTimeout(TIME_OUT, TimeUnit.SECONDS);

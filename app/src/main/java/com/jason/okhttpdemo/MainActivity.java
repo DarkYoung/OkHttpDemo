@@ -1,4 +1,4 @@
-package com.example.jason.okhttpdemo;
+package com.jason.okhttpdemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

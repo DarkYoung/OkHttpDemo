@@ -1,4 +1,4 @@
-package com.example.jason.okhttpdemo.okhttp.response;
+package com.jason.okhttpdemo.okhttp.response;
 
 import java.io.IOException;
 
